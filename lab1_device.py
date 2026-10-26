@@ -9,7 +9,7 @@ import paho.mqtt.client as mqtt
 
 BROKER = "app.coreiot.io"
 PORT = 1883
-ACCESS_TOKEN = "quan2353022lab1"                # Manage credentials
+ACCESS_TOKEN = "*****"                # Manage credentials
 PERIOD = 3                                      # seconds between messages
 
 state = {"LED": False, "PUMP": False, "FAN": False}   # simulated outputs
